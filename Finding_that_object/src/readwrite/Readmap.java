@@ -1,12 +1,11 @@
 import java.util.*;
 import java.io.*;
 package readwrite;
-class Readmap //Reads the map file.
+public class Readmap //Reads the map file.
 {
-    public static void Readmap ( String mapsave )throws IOExeption
+    public static void Readmap ( String mapsave, int xmapsize )throws IOExeption
     {
 	int num1;
-	int xmapsize = 10;
 	int row1 = 0;
 	int column1 = 0;
 	int nummap[row1][column1];
