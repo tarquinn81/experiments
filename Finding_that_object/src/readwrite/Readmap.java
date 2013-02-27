@@ -18,7 +18,7 @@ public class Readmap //Reads the map file.
 	    nummap[row1][column1] = num1;
 	    if ( row1 == xmapsize )
 	    {
-		column1 +=;
+		column1 ++;
 	    }
 	}
     }
