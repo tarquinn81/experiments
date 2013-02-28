@@ -2,7 +2,7 @@ package Sorting_Algorithm_Efficiency;
 import java.util.*;
 public class Sortingnumbers 
 {
-  public static int[] randomgenerator()
+  	public static int[] randomgenerator()
 	{
 		int num=0, row=0;
 		int[] data = null;
